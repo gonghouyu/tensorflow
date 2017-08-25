@@ -1,0 +1,23 @@
+learning_rate = 0.001
+learning_rate_decay = 0.90
+learning_rate_min = 0.000001
+training_iters = 400000
+batch_size = 32
+display_step = 200
+decay_step = 200
+validation_display = 1000
+
+n_input = 200
+n_steps = 200
+n_hidden = 128
+n_classes = 2
+
+
+r_input = tf.concat(0,r_input)    # batch*n_input
+_h_temp_1 = tanh(W_p*r + W_x*outputs[-1])
+_h_temp_2 = tanh(W_p_input*r_input)
+_h_concat = tf.concat(1,[_h_temp_1,_h_temp_2])
+predict = tf.matmul(_h_concat, weights_concat['out']) + biases['out']
+
+
+

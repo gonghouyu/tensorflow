@@ -1,0 +1,20 @@
+learning_rate = 0.001
+learning_rate_decay = 0.90
+learning_rate_min = 0.000001
+training_iters = 400000
+batch_size = 32
+display_step = 200
+decay_step = 200
+validation_display = 1000
+
+n_input = 200
+n_steps = 200
+n_hidden = 128
+n_classes = 2
+
+r_input_hidden = tf.matmul(r_input,W_x_input)
+_h = tanh(W_p*r + W_p_input*r_input_hidden + W_x*outputs[-1])
+predict = tf.matmul(_h, weights['out']) + biases['out']
+
+
+

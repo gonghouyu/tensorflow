@@ -1,0 +1,26 @@
+
+class Config(object):
+
+    output_dir = "./output/"
+
+    # Clockwork RNN parameters
+    periods     = [1, 2, 4, 8, 16, 32] #, 128, 256]
+    num_steps   = 40
+    num_input   = 200
+    num_hidden  = 98
+    num_output  = 3
+
+    # Optmization parameters
+    num_epochs          = 10
+    batch_size          = 32
+    optimizer           = "rmsprop"
+    max_norm_gradient   = 10.0
+
+    # Learning rate decay schedule
+    learning_rate       = 0.001
+    learning_rate_decay = 0.975
+    learning_rate_step  = 1000
+    learning_rate_min   = 1e-5
+
+
+

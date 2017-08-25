@@ -1,0 +1,48 @@
+# Network Parameters
+learning_rate = 0.001
+learning_rate_decay = 0.80
+learning_rate_min = 0.000001
+training_iters = 750000
+batch_size = 100
+display_step = 500
+decay_step = 250
+
+n_input = 200
+n_steps = 230
+n_hidden = 100
+n_classes = 2
+
+
+Validation accuracy = 0.50000
+Iter 0, Minibatch Loss= 20.338697, Training Accuracy= 0.58000, Learning rate = 0.0010000000
+Validation accuracy = 0.68812
+Iter 50000, Minibatch Loss= 0.518584, Training Accuracy= 0.78000, Learning rate = 0.0006400000
+Validation accuracy = 0.74772
+Iter 100000, Minibatch Loss= 0.402446, Training Accuracy= 0.82000, Learning rate = 0.0004096000
+Validation accuracy = 0.77284
+Iter 150000, Minibatch Loss= 0.350050, Training Accuracy= 0.85000, Learning rate = 0.0002621440
+Validation accuracy = 0.78920
+Iter 200000, Minibatch Loss= 0.328387, Training Accuracy= 0.84000, Learning rate = 0.0001677722
+Validation accuracy = 0.79188
+Iter 250000, Minibatch Loss= 0.329260, Training Accuracy= 0.86000, Learning rate = 0.0001073742
+Validation accuracy = 0.80700
+Iter 300000, Minibatch Loss= 0.289588, Training Accuracy= 0.87000, Learning rate = 0.0000687195
+Validation accuracy = 0.81348
+Iter 350000, Minibatch Loss= 0.263493, Training Accuracy= 0.89000, Learning rate = 0.0000439805
+Validation accuracy = 0.82068
+Iter 400000, Minibatch Loss= 0.223268, Training Accuracy= 0.92000, Learning rate = 0.0000281475
+Validation accuracy = 0.82312
+Iter 450000, Minibatch Loss= 0.196550, Training Accuracy= 0.92000, Learning rate = 0.0000180144
+Validation accuracy = 0.82732
+Iter 500000, Minibatch Loss= 0.166068, Training Accuracy= 0.94000, Learning rate = 0.0000115292
+Validation accuracy = 0.82644
+Iter 550000, Minibatch Loss= 0.147876, Training Accuracy= 0.95000, Learning rate = 0.0000073787
+Validation accuracy = 0.81192
+Iter 600000, Minibatch Loss= 0.147616, Training Accuracy= 0.94000, Learning rate = 0.0000047224
+Validation accuracy = 0.81948
+Iter 650000, Minibatch Loss= 0.099639, Training Accuracy= 0.97000, Learning rate = 0.0000030223
+Validation accuracy = 0.78260
+Iter 700000, Minibatch Loss= 0.115263, Training Accuracy= 0.95000, Learning rate = 0.0000019343
+Validation accuracy = 0.81804
+Iter 750000, Minibatch Loss= 0.133403, Training Accuracy= 0.96000, Learning rate = 0.0000012379
+Optimization Finished!

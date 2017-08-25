@@ -1,0 +1,28 @@
+# Network Parameters
+learning_rate = 0.001
+learning_rate_decay = 0.80
+learning_rate_min = 0.000001
+training_iters = 600000
+batch_size = 100
+display_step = 1000
+decay_step = 250
+
+n_input = 200
+n_steps = 230
+n_hidden = 100
+n_classes = 2
+
+Validation accuracy = 0.50056
+Iter 0, Minibatch Loss= 0.750176, Training Accuracy= 0.58000, Learning rate = 0.0010000000
+Validation accuracy = 0.52880
+Iter 100000, Minibatch Loss= 0.671620, Training Accuracy= 0.65000, Learning rate = 0.0004096000
+Validation accuracy = 0.78464
+Iter 200000, Minibatch Loss= 0.322203, Training Accuracy= 0.88000, Learning rate = 0.0001677722
+Validation accuracy = 0.80240
+Iter 300000, Minibatch Loss= 0.184099, Training Accuracy= 0.94000, Learning rate = 0.0000687195
+Validation accuracy = 0.80604
+Iter 400000, Minibatch Loss= 0.066657, Training Accuracy= 0.99000, Learning rate = 0.0000281475
+Validation accuracy = 0.79148
+Iter 500000, Minibatch Loss= 0.031656, Training Accuracy= 1.00000, Learning rate = 0.0000115292
+Optimization Finished!
+

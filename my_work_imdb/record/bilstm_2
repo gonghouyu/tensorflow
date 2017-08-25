@@ -1,0 +1,78 @@
+learning_rate = 0.001
+learning_rate_decay = 0.90
+learning_rate_min = 0.000001
+training_iters = 400000
+batch_size = 32
+display_step = 200
+decay_step = 200
+validation_display = 1000
+
+n_input = 200
+n_steps = 100
+n_hidden = 128
+n_classes = 2
+
+
+
+Iter 0, Minibatch Loss= 1.741596, Training Accuracy= 0.40625, Learning rate = 0.0010000000
+Iter 6400, Minibatch Loss= 0.683641, Training Accuracy= 0.50000, Learning rate = 0.0009000000
+Iter 12800, Minibatch Loss= 0.727390, Training Accuracy= 0.46875, Learning rate = 0.0008100000
+Iter 19200, Minibatch Loss= 0.652861, Training Accuracy= 0.59375, Learning rate = 0.0007290000
+Iter 25600, Minibatch Loss= 0.733627, Training Accuracy= 0.53125, Learning rate = 0.0006561000
+Validation accuracy = 0.55310
+Iter 32000, Minibatch Loss= 0.642724, Training Accuracy= 0.71875, Learning rate = 0.0005904900
+Iter 38400, Minibatch Loss= 0.688073, Training Accuracy= 0.56250, Learning rate = 0.0005314410
+Iter 44800, Minibatch Loss= 0.695344, Training Accuracy= 0.53125, Learning rate = 0.0004782969
+Iter 51200, Minibatch Loss= 0.558801, Training Accuracy= 0.71875, Learning rate = 0.0004304672
+Iter 57600, Minibatch Loss= 0.688821, Training Accuracy= 0.59375, Learning rate = 0.0003874205
+Validation accuracy = 0.59175
+Iter 64000, Minibatch Loss= 0.639030, Training Accuracy= 0.62500, Learning rate = 0.0003486784
+Iter 70400, Minibatch Loss= 0.586861, Training Accuracy= 0.65625, Learning rate = 0.0003138106
+Iter 76800, Minibatch Loss= 0.541300, Training Accuracy= 0.75000, Learning rate = 0.0002824295
+Iter 83200, Minibatch Loss= 0.538125, Training Accuracy= 0.78125, Learning rate = 0.0002541866
+Iter 89600, Minibatch Loss= 0.632588, Training Accuracy= 0.56250, Learning rate = 0.0002287679
+Validation accuracy = 0.68770
+Iter 96000, Minibatch Loss= 0.641836, Training Accuracy= 0.56250, Learning rate = 0.0002058911
+Iter 102400, Minibatch Loss= 0.584443, Training Accuracy= 0.75000, Learning rate = 0.0001853020
+Iter 108800, Minibatch Loss= 0.470900, Training Accuracy= 0.84375, Learning rate = 0.0001667718
+Iter 115200, Minibatch Loss= 0.598215, Training Accuracy= 0.65625, Learning rate = 0.0001500946
+Iter 121600, Minibatch Loss= 0.353364, Training Accuracy= 0.87500, Learning rate = 0.0001350852
+Validation accuracy = 0.70971
+Iter 128000, Minibatch Loss= 0.490088, Training Accuracy= 0.75000, Learning rate = 0.0001215767
+Iter 134400, Minibatch Loss= 0.456196, Training Accuracy= 0.78125, Learning rate = 0.0001094190
+Iter 140800, Minibatch Loss= 0.643163, Training Accuracy= 0.71875, Learning rate = 0.0000984771
+Iter 147200, Minibatch Loss= 0.446738, Training Accuracy= 0.84375, Learning rate = 0.0000886294
+Iter 153600, Minibatch Loss= 0.538259, Training Accuracy= 0.78125, Learning rate = 0.0000797664
+Validation accuracy = 0.70879
+Iter 160000, Minibatch Loss= 0.473334, Training Accuracy= 0.71875, Learning rate = 0.0000717898
+Iter 166400, Minibatch Loss= 0.587598, Training Accuracy= 0.59375, Learning rate = 0.0000646108
+Iter 172800, Minibatch Loss= 0.424667, Training Accuracy= 0.81250, Learning rate = 0.0000581497
+Iter 179200, Minibatch Loss= 0.499703, Training Accuracy= 0.78125, Learning rate = 0.0000523348
+Iter 185600, Minibatch Loss= 0.297489, Training Accuracy= 0.84375, Learning rate = 0.0000471013
+Validation accuracy = 0.72187
+Iter 192000, Minibatch Loss= 0.401765, Training Accuracy= 0.78125, Learning rate = 0.0000423912
+Iter 198400, Minibatch Loss= 0.376874, Training Accuracy= 0.84375, Learning rate = 0.0000381520
+Iter 204800, Minibatch Loss= 0.291728, Training Accuracy= 0.84375, Learning rate = 0.0000343368
+Iter 211200, Minibatch Loss= 0.443160, Training Accuracy= 0.81250, Learning rate = 0.0000309032
+Iter 217600, Minibatch Loss= 0.348004, Training Accuracy= 0.84375, Learning rate = 0.0000278128
+Validation accuracy = 0.72467
+Iter 224000, Minibatch Loss= 0.212575, Training Accuracy= 0.93750, Learning rate = 0.0000250316
+Iter 230400, Minibatch Loss= 0.266870, Training Accuracy= 0.84375, Learning rate = 0.0000225284
+Iter 236800, Minibatch Loss= 0.349519, Training Accuracy= 0.81250, Learning rate = 0.0000202756
+Iter 243200, Minibatch Loss= 0.223996, Training Accuracy= 0.90625, Learning rate = 0.0000182480
+Iter 249600, Minibatch Loss= 0.294820, Training Accuracy= 0.87500, Learning rate = 0.0000164232
+Validation accuracy = 0.72719
+Iter 256000, Minibatch Loss= 0.156575, Training Accuracy= 0.93750, Learning rate = 0.0000147809
+Iter 262400, Minibatch Loss= 0.252055, Training Accuracy= 0.90625, Learning rate = 0.0000133028
+Iter 268800, Minibatch Loss= 0.203103, Training Accuracy= 0.90625, Learning rate = 0.0000119725
+Iter 275200, Minibatch Loss= 0.218947, Training Accuracy= 0.90625, Learning rate = 0.0000107753
+Iter 281600, Minibatch Loss= 0.223071, Training Accuracy= 0.93750, Learning rate = 0.0000096977
+Validation accuracy = 0.67546
+Iter 288000, Minibatch Loss= 0.258717, Training Accuracy= 0.81250, Learning rate = 0.0000087280
+Iter 294400, Minibatch Loss= 0.135145, Training Accuracy= 0.93750, Learning rate = 0.0000078552
+Iter 300800, Minibatch Loss= 0.226767, Training Accuracy= 0.90625, Learning rate = 0.0000070697
+Iter 307200, Minibatch Loss= 0.140566, Training Accuracy= 0.93750, Learning rate = 0.0000063627
+Iter 313600, Minibatch Loss= 0.119895, Training Accuracy= 0.96875, Learning rate = 0.0000057264
+Validation accuracy = 0.69510
+Iter 320000, Minibatch Loss= 0.123223, Training Accuracy= 0.96875, Learning rate = 0.0000051538
+

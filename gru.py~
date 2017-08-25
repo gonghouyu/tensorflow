@@ -1,0 +1,67 @@
+
+import numpy as np
+from semval2016_data import *
+
+
+from keras.models import Sequential
+from keras.layers.core import Dense, Dropout, Activation
+from keras.layers.embeddings import Embedding
+from keras.layers.recurrent import LSTM
+from keras.layers.recurrent import GRU
+
+
+
+def gru_static_embedding(test_split=0.2,batch_size=32,eboch=22,sentiment_embeddings=False,Load_Test=False):
+
+        print "Loading and Preparing Data ..."
+        (X_train, y_train), (X_test, y_test) = load_a(test_split=test_split,cnn=False,sentiment_embeddings=sentiment_embeddings,Load_Test=Load_Test)
+        print(len(X_train), 'train sequences')
+        print(len(X_test), 'test sequences')
+
+
+        print('X_train shape:', X_train.shape)
+        print('X_test shape:', X_test.shape)
+
+        print('Build model...')
+        model = Sequential()
+
+        model.add(GRU(128,input_length=NUM_TOKEN,input_dim=X_train.shape[2]))  # try using a GRU instead, for fun
+        model.add(Dropout(0.5))
+        model.add(Dense(32))  # try using a GRU instead, for fun
+        model.add(Activation('tanh'))
+        model.add(Dropout(0.25))
+        model.add(Dense(3)) #number of classes positive,negative,neutral
+        model.add(Activation('softmax'))
+
+        # try using different optimizers and different optimizer configs
+        model.compile(loss='categorical_crossentropy',
+                      optimizer='adam')
+
+        print("Train...")
+        if(Load_Test):
+                model.fit(X_train, y_train, batch_size=batch_size, nb_epoch=eboch, show_accuracy=True)
+                pred=model.predict_classes(X_test, batch_size=batch_size)
+                return pred
+        else:
+
+                model.fit(X_train, y_train, batch_size=batch_size, nb_epoch=eboch,
+                          validation_data=(X_test, y_test), show_accuracy=True)
+
+                print("Evaluate...")
+                #score, acc = model.evaluate(X_test, y_test,
+                #                            batch_size=batch_size,
+                #                            show_accuracy=True)
+
+                #print('Test score:', score)
+                #print('Test accuracy:', acc)
+
+
+                pred=model.predict_classes(X_test,
+                                            batch_size=batch_size)
+
+
+                y_test=np_utils.categorical_probas_to_classes(y_test)
+                print "GRU Results..."
+
+                return Evaluate_Result(pred,y_test)
+

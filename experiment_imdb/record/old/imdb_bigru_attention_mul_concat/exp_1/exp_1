@@ -1,0 +1,48 @@
+learning_rate = 0.001
+learning_rate_decay = 0.80
+learning_rate_min = 0.000001
+training_iters = 600000
+batch_size = 100
+display_step = 500
+decay_step = 250
+
+n_input = 200
+n_steps = 230
+n_hidden = 100
+n_classes = 2
+
+
+
+_h_temp_1 = tanh(W_p*r + W_x*outputs[-1])
+_h_temp_2 = tanh(W_p_input*r_input)
+_h_concat = tf.concat(1,[_h_temp_1,_h_temp_2])
+predict = tf.matmul(_h_concat, weights_concat['out_concat']) + biases['out']
+
+
+Validation accuracy = 0.49980
+Iter 0, Minibatch Loss= 9.725705, Training Accuracy= 0.59000, Learning rate = 0.0010000000
+Validation accuracy = 0.54812
+Iter 50000, Minibatch Loss= 1.131084, Training Accuracy= 0.60000, Learning rate = 0.0006400000
+Validation accuracy = 0.61356
+Iter 100000, Minibatch Loss= 0.631534, Training Accuracy= 0.66000, Learning rate = 0.0004096000
+Validation accuracy = 0.57712
+Iter 150000, Minibatch Loss= 0.650738, Training Accuracy= 0.67000, Learning rate = 0.0002621440
+Validation accuracy = 0.55892
+Iter 200000, Minibatch Loss= 0.656106, Training Accuracy= 0.61000, Learning rate = 0.0001677722
+Validation accuracy = 0.63932
+Iter 250000, Minibatch Loss= 0.562203, Training Accuracy= 0.71000, Learning rate = 0.0001073742
+Validation accuracy = 0.72728
+Iter 300000, Minibatch Loss= 0.419020, Training Accuracy= 0.76000, Learning rate = 0.0000687195
+Validation accuracy = 0.76880
+Iter 350000, Minibatch Loss= 0.336112, Training Accuracy= 0.86000, Learning rate = 0.0000439805
+Validation accuracy = 0.78288
+Iter 400000, Minibatch Loss= 0.298756, Training Accuracy= 0.86000, Learning rate = 0.0000281475
+Validation accuracy = 0.79016
+Iter 450000, Minibatch Loss= 0.281310, Training Accuracy= 0.88000, Learning rate = 0.0000180144
+Validation accuracy = 0.79948
+Iter 500000, Minibatch Loss= 0.263090, Training Accuracy= 0.88000, Learning rate = 0.0000115292
+Validation accuracy = 0.81428
+Iter 550000, Minibatch Loss= 0.235981, Training Accuracy= 0.90000, Learning rate = 0.0000073787
+Validation accuracy = 0.82192
+Iter 600000, Minibatch Loss= 0.214338, Training Accuracy= 0.90000, Learning rate = 0.0000047224
+Optimization Finished!

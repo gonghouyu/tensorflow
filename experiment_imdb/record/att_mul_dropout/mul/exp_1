@@ -1,0 +1,23 @@
+alidation accuracy = 0.49140
+Iter 0, Minibatch Loss= 1.207853, Training Accuracy= 0.55000, Learning rate = 0.0010000000
+Validation accuracy = 0.58352
+Iter 50000, Minibatch Loss= 0.768798, Training Accuracy= 0.67000, Learning rate = 0.0007000000
+Validation accuracy = 0.71596
+Iter 100000, Minibatch Loss= 0.483777, Training Accuracy= 0.79000, Learning rate = 0.0003430000
+Validation accuracy = 0.75804
+Iter 150000, Minibatch Loss= 0.379602, Training Accuracy= 0.82000, Learning rate = 0.0001680700
+Validation accuracy = 0.77808
+Iter 200000, Minibatch Loss= 0.336743, Training Accuracy= 0.87000, Learning rate = 0.0001000000
+Validation accuracy = 0.79324
+Iter 250000, Minibatch Loss= 0.297013, Training Accuracy= 0.89000, Learning rate = 0.0001000000
+Validation accuracy = 0.80432
+Iter 300000, Minibatch Loss= 0.268087, Training Accuracy= 0.88000, Learning rate = 0.0001000000
+Validation accuracy = 0.80312
+Iter 350000, Minibatch Loss= 0.243783, Training Accuracy= 0.83000, Learning rate = 0.0001000000
+Validation accuracy = 0.80972
+Iter 400000, Minibatch Loss= 0.221770, Training Accuracy= 0.93000, Learning rate = 0.0001000000
+Validation accuracy = 0.81020
+Iter 450000, Minibatch Loss= 0.201626, Training Accuracy= 0.91000, Learning rate = 0.0001000000
+Validation accuracy = 0.80748
+Iter 500000, Minibatch Loss= 0.176729, Training Accuracy= 0.93000, Learning rate = 0.0001000000
+Optimization Finished!

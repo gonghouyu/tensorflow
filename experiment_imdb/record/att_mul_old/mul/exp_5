@@ -1,0 +1,32 @@
+Validation accuracy = 0.50016
+Iter 0, Minibatch Loss= 14.030666, Training Accuracy= 0.42000, Learning rate = 0.0010000000
+Validation accuracy = 0.54100
+Iter 50000, Minibatch Loss= 1.770603, Training Accuracy= 0.51000, Learning rate = 0.0006400000
+Validation accuracy = 0.57836
+Iter 100000, Minibatch Loss= 1.166491, Training Accuracy= 0.62000, Learning rate = 0.0004096000
+Validation accuracy = 0.69504
+Iter 150000, Minibatch Loss= 0.534888, Training Accuracy= 0.72000, Learning rate = 0.0002621440
+Validation accuracy = 0.74088
+Iter 200000, Minibatch Loss= 0.432141, Training Accuracy= 0.79000, Learning rate = 0.0001677722
+Validation accuracy = 0.76676
+Iter 250000, Minibatch Loss= 0.384567, Training Accuracy= 0.78000, Learning rate = 0.0001073742
+Validation accuracy = 0.79072
+Iter 300000, Minibatch Loss= 0.332568, Training Accuracy= 0.81000, Learning rate = 0.0000687195
+Validation accuracy = 0.80224
+Iter 350000, Minibatch Loss= 0.299317, Training Accuracy= 0.85000, Learning rate = 0.0000439805
+Validation accuracy = 0.80592
+Iter 400000, Minibatch Loss= 0.293985, Training Accuracy= 0.88000, Learning rate = 0.0000281475
+Validation accuracy = 0.81056
+Iter 450000, Minibatch Loss= 0.273760, Training Accuracy= 0.87000, Learning rate = 0.0000180144
+Validation accuracy = 0.81372
+Iter 500000, Minibatch Loss= 0.249734, Training Accuracy= 0.89000, Learning rate = 0.0000115292
+Validation accuracy = 0.81556
+Iter 550000, Minibatch Loss= 0.230328, Training Accuracy= 0.91000, Learning rate = 0.0000073787
+Validation accuracy = 0.81668
+Iter 600000, Minibatch Loss= 0.209450, Training Accuracy= 0.93000, Learning rate = 0.0000047224
+Validation accuracy = 0.79332
+Iter 650000, Minibatch Loss= 0.207119, Training Accuracy= 0.93000, Learning rate = 0.0000030223
+Validation accuracy = 0.76424
+Iter 700000, Minibatch Loss= 0.231568, Training Accuracy= 0.89000, Learning rate = 0.0000019343
+Validation accuracy = 0.77244
+Iter 750000, Minibatch Loss= 0.201018, Training Accuracy= 0.93000, Learning rate = 0.0000012379

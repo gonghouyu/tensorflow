@@ -1,0 +1,33 @@
+Validation accuracy = 0.50072
+Iter 0, Minibatch Loss= 0.680056, Training Accuracy= 0.58000, Learning rate = 0.0010000000
+Validation accuracy = 0.75472
+Iter 50000, Minibatch Loss= 0.418939, Training Accuracy= 0.81000, Learning rate = 0.0006400000
+Validation accuracy = 0.79840
+Iter 100000, Minibatch Loss= 0.295383, Training Accuracy= 0.88000, Learning rate = 0.0004096000
+Validation accuracy = 0.80152
+Iter 150000, Minibatch Loss= 0.261393, Training Accuracy= 0.88000, Learning rate = 0.0002621440
+Validation accuracy = 0.80732
+Iter 200000, Minibatch Loss= 0.197984, Training Accuracy= 0.91000, Learning rate = 0.0001677722
+Validation accuracy = 0.78996
+Iter 250000, Minibatch Loss= 0.233783, Training Accuracy= 0.89000, Learning rate = 0.0001073742
+Validation accuracy = 0.79300
+Iter 300000, Minibatch Loss= 0.070651, Training Accuracy= 1.00000, Learning rate = 0.0000687195
+Validation accuracy = 0.76316
+Iter 350000, Minibatch Loss= 0.069246, Training Accuracy= 0.97000, Learning rate = 0.0000439805
+Validation accuracy = 0.78212
+Iter 400000, Minibatch Loss= 0.038608, Training Accuracy= 1.00000, Learning rate = 0.0000281475
+Validation accuracy = 0.79592
+Iter 450000, Minibatch Loss= 0.061463, Training Accuracy= 0.99000, Learning rate = 0.0000180144
+Validation accuracy = 0.79816
+Iter 500000, Minibatch Loss= 0.029593, Training Accuracy= 0.99000, Learning rate = 0.0000115292
+Validation accuracy = 0.76888
+Iter 550000, Minibatch Loss= 0.067987, Training Accuracy= 0.98000, Learning rate = 0.0000073787
+Validation accuracy = 0.77940
+Iter 600000, Minibatch Loss= 0.017661, Training Accuracy= 1.00000, Learning rate = 0.0000047224
+Validation accuracy = 0.76812
+Iter 650000, Minibatch Loss= 0.023068, Training Accuracy= 1.00000, Learning rate = 0.0000030223
+Validation accuracy = 0.79332
+Iter 700000, Minibatch Loss= 0.007352, Training Accuracy= 1.00000, Learning rate = 0.0000019343
+Validation accuracy = 0.79208
+Iter 750000, Minibatch Loss= 0.002841, Training Accuracy= 1.00000, Learning rate = 0.0000012379
+Optimization Finished!
